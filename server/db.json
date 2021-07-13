@@ -1,0 +1,261 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "123",
+      "role": "admin",
+      "cart": []
+    },
+    {
+      "id": 2,
+      "username": "dedi",
+      "password": "123",
+      "role": "users",
+      "cart": [
+        {
+          "name": "adidas Yeezy 450 Cloud",
+          "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzE5MDI0LzZiYWZhMjQ1Yjg1NzVmYTBjZjBmMTIwNzg2YzRiZDQ0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NTAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+          "tahun": "1970",
+          "harga": "6",
+          "deskripsi": "H68038",
+          "categoryId": 2,
+          "id": 3,
+          "stok": 3,
+          "category": {
+            "id": 2,
+            "nama": "ADIDAS"
+          },
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "username": "jarwo",
+      "password": "123",
+      "role": "admin",
+      "id": 3
+    },
+    {
+      "username": "admin1",
+      "password": "123",
+      "role": "users",
+      "id": 4
+    },
+    {
+      "username": "jika",
+      "password": "123",
+      "role": "users",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Jordan 1 Retro High",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzE2Nzc0L2IwOGVmNjI3NWNhMDJjNmViOThjZDBiN2JlYTZmM2ZhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "tahun": 2021,
+      "harga": 7,
+      "deskripsi": "WHITE/UNIVERSITY BLUE-BLACK",
+      "categoryId": "2",
+      "id": 1,
+      "stok": null
+    },
+    {
+      "id": 2,
+      "name": "adidas Yeezy Boost 700",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzIxMjA4L2QxZmIxMzcwY2M2OTljZmNiODJmNWYwOWFmN2Y0MTBiLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "tahun": 2021,
+      "harga": 8,
+      "deskripsi": "CREAM/CREAM/CREAM",
+      "categoryId": 2,
+      "stok": 5
+    },
+    {
+      "name": "adidas Yeezy 450 Cloud",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzE5MDI0LzZiYWZhMjQ1Yjg1NzVmYTBjZjBmMTIwNzg2YzRiZDQ0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NTAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "tahun": "1970",
+      "harga": "6",
+      "deskripsi": "H68038",
+      "categoryId": 2,
+      "id": 3,
+      "stok": 3
+    },
+    {
+      "name": "Jordan 6 Retro",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzM4MS9kNGRlYTI1Zi1hZGM0LTRiZWMtYTY3NS1hZTk0YWNlMzFhMGMuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NTAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "tahun": "2020",
+      "harga": "3",
+      "deskripsi": "BLACK/UNIVERSITY BLUE",
+      "categoryId": 1,
+      "id": 4,
+      "stok": 5
+    },
+    {
+      "name": "Jordan 1 Low Galaxy",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzkzMDIvYzhkOTVlMmQtYTQ1OC00MWRiLThhMGMtMjNkOGQ1Njc4MDhhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "tahun": "2020",
+      "harga": "5",
+      "deskripsi": "BLACK/MULTI COLOR WHITE",
+      "categoryId": "1",
+      "id": 5,
+      "stok": 5
+    },
+    {
+      "name": "Air Max 1/97 Sean",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzcwOS8zODdmNzZkNC0xNjk4LTQyNDItOTdjNS02OWVhMWY3OGQxZTQuanBlZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "harga": "10",
+      "deskripsi": "LIGHT BLUE FURY/LEMON",
+      "categoryId": "3",
+      "id": 6,
+      "stok": 5
+    },
+    {
+      "name": "Asics Gel-Lyte III Sean",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzk3ODgvNGVhZDRhMTIyM2IwNjUxNmE2ZmQ4MGFjYTE1NWZjNzgucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjo1MDB9LCJ3ZWJwIjp7InF1YWxpdHkiOjUwfX19",
+      "harga": "3",
+      "deskripsi": "GREEN/BLUE-MULTICOLOR",
+      "categoryId": "3",
+      "id": 7,
+      "stok": 5
+    },
+    {
+      "name": "Stan Smith",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzQ0MTIvMWJlZmIyZjMtNmM5ZC00YmUzLThjMGYtNDY2YTRlZjg5MWQ1LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjUwMH0sIndlYnAiOnsicXVhbGl0eSI6NTB9fX0=",
+      "harga": "2",
+      "deskripsi": "WHITE-GREEN",
+      "categoryId": "3",
+      "id": 8,
+      "stok": 5
+    },
+    {
+      "name": "Raf Simons x Stan Smit",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzE3MjEzL2Q0ZjZjNGIwNzNkZDhkN2I2ZDk0OGIyYmIwYTgzZmJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NTAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "harga": "2",
+      "deskripsi": "ORANGE",
+      "categoryId": "3",
+      "id": 9,
+      "stok": 5
+    },
+    {
+      "name": "Nike Vapormax EVO",
+      "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzIwODU2L2YxYTkxMzE4YTg4NzFiMWI3ZWMxMDIxNWZmY2Y1OWY3LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NTAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+      "tahun": "2021",
+      "harga": "4",
+      "deskripsi": "BLACK/BLACK/BLACK",
+      "categoryId": "2",
+      "id": 10
+    },
+    {
+      "name": "nike",
+      "image": "https://images.unsplash.com/photo-1607522370275-f14206abe5d3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c2hvZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60",
+      "tahun": "2011",
+      "harga": "11",
+      "deskripsi": "aku suka sepatu ini",
+      "categoryId": "3",
+      "id": 11
+    }
+  ],
+  "transactions": [
+    {
+      "userId": 2,
+      "tanggal": "2021-03-14T09:50:41.948Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "name": "adidas Yeezy 450 Cloud",
+          "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzE5MDI0LzZiYWZhMjQ1Yjg1NzVmYTBjZjBmMTIwNzg2YzRiZDQ0LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NTAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+          "tahun": "1970",
+          "harga": "6",
+          "deskripsi": "H68038",
+          "categoryId": 2,
+          "id": 3,
+          "stok": 3,
+          "category": {
+            "id": 2,
+            "nama": "ADIDAS"
+          },
+          "qty": 2
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 1
+    },
+    {
+      "userId": 7,
+      "tanggal": "2021-03-15T01:50:22.633Z",
+      "status": "belum bayar",
+      "products": [
+        {
+          "name": "Jordan 1 Retro High",
+          "image": "https://d5ibtax54de3q.cloudfront.net/eyJidWNrZXQiOiJraWNrYXZlbnVlLWFzc2V0cyIsImtleSI6InByb2R1Y3RzLzE2Nzc0L2IwOGVmNjI3NWNhMDJjNmViOThjZDBiN2JlYTZmM2ZhLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6NDAwfSwid2VicCI6eyJxdWFsaXR5Ijo1MH19fQ==",
+          "tahun": 2021,
+          "harga": 7,
+          "deskripsi": "WHITE/UNIVERSITY BLUE-BLACK",
+          "categoryId": "2",
+          "id": 1,
+          "category": {
+            "id": 2,
+            "nama": "ADIDAS"
+          },
+          "qty": 2
+        }
+      ],
+      "bankId": 0,
+      "bukti": "",
+      "id": 2
+    },
+    {
+      "userId": 7,
+      "tanggal": "2021-03-15T01:50:32.229Z",
+      "status": "belum bayar",
+      "products": [],
+      "bankId": 0,
+      "bukti": "",
+      "id": 3
+    },
+    {
+      "userId": 7,
+      "tanggal": "2021-03-15T01:55:14.421Z",
+      "status": "belum bayar",
+      "products": [],
+      "bankId": 0,
+      "bukti": "",
+      "id": 4
+    },
+    {
+      "userId": 10,
+      "tanggal": "2021-05-18T02:10:11.376Z",
+      "status": "belum bayar",
+      "products": [],
+      "bankId": 0,
+      "bukti": "",
+      "id": 5
+    }
+  ],
+  "transactionsdetails": [],
+  "banks": [
+    {
+      "id": 1,
+      "nama": "Bca"
+    },
+    {
+      "id": 2,
+      "nama": "CIMB Niaga"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "nama": "JORDAN"
+    },
+    {
+      "id": 2,
+      "nama": "ADIDAS"
+    },
+    {
+      "id": 3,
+      "nama": "NIKE"
+    }
+  ]
+}

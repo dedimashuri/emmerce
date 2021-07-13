@@ -1,0 +1,31 @@
+.header-bg {
+  background: linear-gradient(
+    90deg,
+    rgba(42, 224, 0, 1) 0%,
+    rgba(2, 3, 0, 1) 0%,
+    rgba(0, 0, 0, 1) 24%,
+    rgba(39, 83, 74, 1) 35%,
+    rgba(0, 230, 185, 1) 66%,
+    rgba(0, 255, 192, 1) 100%
+  );
+}
+
+.header-brand {
+  font-size: 1.3em;
+}
+
+.header-login {
+  background-color: transparent;
+  border: black solid 2px;
+}
+.header-login:hover {
+  border-color: black;
+  color: black;
+}
+
+.normal-link {
+  text-decoration: none;
+}
+.normal-link:hover {
+  text-decoration: none;
+}

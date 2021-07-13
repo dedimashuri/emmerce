@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-tombol {
+  background-color: black;
+  border: none;
+  color: #0bbd9a;
+}
+.bg-tombol:hover {
+  background-color: #0bbd9a;
+  color: black;
+}
+
+.warna {
+  color: #0bbd9a !important;
+}
+
+.form-control:focus {
+  border-color: transparent !important;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px #0bbd9a !important;
+}
+
+.login-placeholder::placeholder {
+  color: #0bbd9a !important;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #0bbd9a !important;
+  font-size: 30px !important;
+}
+.slick-prev {
+  left: 30px !important;
+  z-index: 1;
+}
+.slick-next {
+  right: 30px !important;
+  z-index: 1;
+}
+.slick-dots li button:before {
+  font-size: 20px !important;
+  color: #0bbd9a !important;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #0bbd9a;
+}
+
+.garisbwh {
+  border-bottom: 2px solid #0bbd9a;
+}
+.garis {
+  border-top: 2px solid black;
+}
+.bgck{
+  background-color: black !important;
+}
