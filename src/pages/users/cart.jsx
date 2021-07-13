@@ -19,7 +19,6 @@ class Cart extends Component {
   };
 
   componentDidMount() {
-    
     axios
       .get(`${API_URL}/products`)
       .then((res) => {
@@ -177,7 +176,6 @@ class Cart extends Component {
 
   //? cara dengan promise.all dan untuk membuat disable button
 
- 
   rendertotal = () => {
     let total = 0;
     this.props.dataUser.cart.forEach((val) => {
@@ -202,7 +200,7 @@ class Cart extends Component {
             type="radio"
             name="pilihanId"
             onChange={this.onInputChange}
-            checked={this.state.pilihanId == val.id}
+            checked={this.state.pilihanId === val.id}
             value={val.id}
             className="mr-2"
           />

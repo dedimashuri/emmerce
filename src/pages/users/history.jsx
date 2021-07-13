@@ -61,7 +61,7 @@ class History extends Component {
             type="radio"
             name="pilihanId"
             onChange={this.onInputChange}
-            checked={this.state.pilihanId == val.id}
+            checked={this.state.pilihanId === val.id}
             value={val.id}
             className="mr-2"
           />

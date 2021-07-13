@@ -63,7 +63,7 @@ export const LoginActionThunk = (input) => {
 
 export const RegActionThunk = (input) => {
   return (dispatch) => {
-    var { username, password, confirmpass } = input;
+    var { username, password } = input;
     let data = {
       username,
       password,
@@ -74,8 +74,8 @@ export const RegActionThunk = (input) => {
       axios
         .get(`${API_URL}/users?username=${username}`)
         .then((res1) => {
-          let validation = new RegExp("^(?=.*[a-z])(?=.*[0-9])").test(password)
-          console.log(validation)
+          let validation = new RegExp("^(?=.*[a-z])(?=.*[0-9])").test(password);
+          console.log(validation);
           if (res1.data.length) {
             dispatch({ type: "ERROR", error: "username telah terdaftar" });
           } else {

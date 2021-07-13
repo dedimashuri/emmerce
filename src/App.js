@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route } from "react-router-dom";
 import axios from "axios";
 import NotFound from "./pages/notfound";
 import Home from "./pages/Home";

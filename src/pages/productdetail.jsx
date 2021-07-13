@@ -45,7 +45,7 @@ class ProductDetail extends Component {
         this.setState({ qty: this.state.qty + 1 });
       }
     } else {
-      var hasil = this.state.qty - 1;
+      // var hasil = this.state.qty - 1;
       if (hasil < 1) {
         alert("nggak boleh kurang dari 1");
       } else {
@@ -69,7 +69,7 @@ class ProductDetail extends Component {
         .then((res) => {
           var cart = res.data.cart; //cart adalah array
 
-          let findIdx = cart.findIndex((val) => val.id == idprod);
+          let findIdx = cart.findIndex((val) => val.id === idprod);
           if (findIdx < 0) {
             let data = {
               ...this.state.product,

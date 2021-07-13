@@ -11,7 +11,7 @@ import {
   Breadcrumb,
   BreadcrumbItem,
 } from "reactstrap";
-import { FaHome } from "react-icons/fa";
+// import { FaHome } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Button from "../components/button";
 class Products extends Component {

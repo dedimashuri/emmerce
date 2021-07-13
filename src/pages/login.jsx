@@ -8,7 +8,6 @@ import {
   LoginAction,
   LoginActionThunk,
   ResetActionthunk,
-  RegActionThunk,
 } from "./../redux/actions";
 import { connect } from "react-redux";
 import { Redirect } from "react-router-dom";
@@ -80,15 +79,15 @@ class Login extends Component {
     if (this.props.dataUser.islogin) {
       return <Redirect to="/" />;
     }
-    const settings = {
-      className: "center",
-      centerMode: true,
-      infinite: true,
-      centerPadding: "100px",
-      slidesToShow: 1,
-      speed: 500,
-      dots: true,
-    };
+    // const settings = {
+    //   className: "center",
+    //   centerMode: true,
+    //   infinite: true,
+    //   centerPadding: "100px",
+    //   slidesToShow: 1,
+    //   speed: 500,
+    //   dots: true,
+    // };
     return (
       <div>
         <Header />
